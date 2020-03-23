@@ -1,0 +1,1 @@
+This is a simple bot I did for my kids based on https://realpython.com/how-to-make-a-discord-bot-python/

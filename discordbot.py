@@ -24,6 +24,7 @@ async def on_message(message):
     elif "corona" in message.content.lower():
         await message.channel.send(file=discord.File("resources/corona.jpg"))
     elif "grap" in message.content.lower():
+        # Of course, I should cache this
         with open('resources/moppen.json', 'r', encoding="utf8") as f:
             allemoppen = json.load(f)
             jokes = allemoppen["jokes"]
